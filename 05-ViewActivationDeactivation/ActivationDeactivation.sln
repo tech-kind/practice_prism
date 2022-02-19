@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivationDeactivation", "ActivationDeactivation\ActivationDeactivation.csproj", "{ED1E3E0B-0C1F-4FFC-B8B9-6D226E548734}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED1E3E0B-0C1F-4FFC-B8B9-6D226E548734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1E3E0B-0C1F-4FFC-B8B9-6D226E548734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1E3E0B-0C1F-4FFC-B8B9-6D226E548734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1E3E0B-0C1F-4FFC-B8B9-6D226E548734}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4F02B19-15F4-4E28-AE6B-4DAB6A610601}
+	EndGlobalSection
+EndGlobal

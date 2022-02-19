@@ -1,0 +1,25 @@
+﻿<Window
+    x:Class="ActivationDeactivation.Views.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:ActivationDeactivation"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:prism="http://prismlibrary.com/"
+    Title="Shell"
+    Width="525"
+    Height="350"
+    mc:Ignorable="d">
+    <DockPanel LastChildFill="True">
+        <StackPanel>
+            <Button Click="Button_Click" Content="Activate ViewA" />
+            <Button Click="Button_Click_1" Content="Deactivate ViewA" />
+            <Button Click="Button_Click_2" Content="Activate ViewB" />
+            <Button Click="Button_Click_3" Content="Deactivate ViewA" />
+        </StackPanel>
+        <ContentControl
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            prism:RegionManager.RegionName="ContentRegion" />
+    </DockPanel>
+</Window>
